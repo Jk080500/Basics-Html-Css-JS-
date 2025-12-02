@@ -1,0 +1,64 @@
+canvas {
+  position: absolute;
+}
+body {
+  font-family: cursive;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background: #2f2f2f;
+  width: calc(100% - 33px);
+}
+
+header {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  background-color: coral;
+  color: black;
+}
+
+video {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container {
+  background-color: gainsboro;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-container > div {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 5px 0;
+  color: white;
+  text-transform: capitalize;
+}
+
+#emotion {
+  color: red;
+}
+
+#gender {
+  color: royalblue;
+}
+
+#age {
+  color: slateblue;
+}
